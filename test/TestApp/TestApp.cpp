@@ -156,10 +156,10 @@ void TestGetQosResultApi()
     {
         vector<PlayFab::QoS::DataCenterResult> r(move(result.dataCenterResults));
 
-        for (int i = 0; i < r.size(); ++i)
+        /*for (int i = 0; i < r.size(); ++i)
         {
             PrintResult(r[i]);
-        }
+        }*/
     }
     else
     {
